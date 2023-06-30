@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHR.TablasMaestras.Application", "src\HHR.TablasMaestras.Application\HHR.TablasMaestras.Application.csproj", "{EF3BF9C1-6187-428E-A381-974CAFC1108C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1D37A69-ACF9-4BC8-AE63-7296F8E8D862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02E4C4F9-CEF7-4156-BC2B-61F658DA3500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHR.TablasMaestras.Application.UnitTests", "tests\HHR.TablasMaestras.Application.UnitTests\HHR.TablasMaestras.Application.UnitTests.csproj", "{3EB09B43-D5AD-4239-940D-37C9294D44DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF3BF9C1-6187-428E-A381-974CAFC1108C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3BF9C1-6187-428E-A381-974CAFC1108C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3BF9C1-6187-428E-A381-974CAFC1108C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3BF9C1-6187-428E-A381-974CAFC1108C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB09B43-D5AD-4239-940D-37C9294D44DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB09B43-D5AD-4239-940D-37C9294D44DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB09B43-D5AD-4239-940D-37C9294D44DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB09B43-D5AD-4239-940D-37C9294D44DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF3BF9C1-6187-428E-A381-974CAFC1108C} = {E1D37A69-ACF9-4BC8-AE63-7296F8E8D862}
+		{3EB09B43-D5AD-4239-940D-37C9294D44DE} = {02E4C4F9-CEF7-4156-BC2B-61F658DA3500}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {504D8142-3CB7-4151-9AB2-2A55894C069A}
+	EndGlobalSection
+EndGlobal
